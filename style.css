@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    font-size: 100px ;
+   
+    
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #183B56;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #5C7588;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1186px;
+      display: flex;
+    margin-inline:auto ;
+    padding: 20px;
+        margin-top: 20px;
+
+    
+
+}
+
+
+/* page css */
+
+.offer{
+    background-image: url(/img/asset\ 32.png);
+    background-size: 300px;
+    display: flex;
+    justify-content: center;    
+    background-color: #2294ED;
+    
+   
+     
+}
+
+
+.nav{
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .links-nav{
+    display:flex;
+    font-size: .8rem;
+    align-items: center;
+    /* display: none; */
+    /* position: absolute; */
+    
+ 
+/* } */
+
+.links-nav{
+    display: flex;
+    font-size: .8rem;
+    align-items: center;
+    /* display: none; */
+    /* position: absolute; */
+    
+ 
+}
+
+.links-nav a{
+      margin-inline: 20px;
+      color: #5C7588;
+      text-decoration: none;
+      font-family: 'poppins',sans-serif;
+      
+      
+}
+
+
+
+.logo img{
+    width: 200px;
+
+}
+
+.blue-button{
+    display: inline-flex;
+padding:5px 5px ;
+align-items: flex-start;
+border-radius: 4px;
+background: #2294ED;
+box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.10);
+margin: 5px;
+}
+
+.blue-button a{
+    color: white;
+}
+
+.blue-button:hover{
+    background-color: #1364a2;
+}
+
+.white-button{
+    display: inline-flex;
+padding: 5px 5px;
+align-items: flex-start;
+border-radius: 4px;
+/* border: 1px solid #5C7588; */
+background: white;
+box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.10);
+margin-right: 10px;
+}
+
+.white-button a{
+    color: #5C7588 ;
+}
+
+.white-button:hover{
+    border: 1px solid #2294ED;
+}
+
+.white-button a:hover{
+     color: #2294ED;
+
+}
+
+.herosection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    justify-content: center;
+    align-items: flex-start;
+
+
+   
+}
+
+.content h1{
+    color: #183B56;
+}
+.content p{
+    margin-top: 20px;
+    color: #5C7588;
+}
+
+.content button a {
+    text-decoration: none;
+}
+.content button{
+    margin-top: 30px;
+    width: 150px !important;
+}
+
+.hero-img img {
+    width: 600px;
+    margin-left: 20px;
+
+}
+
+.company-heading{
+    color: #183B56;
+    
+}
+
+.company{
+    
+    margin-inline: auto ;    
+    margin-top: 10px;
+    
+}
+
+
+.flex-direction{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    
+    
+}
+.company img{
+    
+    margin: 30px;
+}
+
+.cards-section{
+    display: flex;
+    margin-inline:auto ;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   
+}
+.cardheading {
+    color: #183B56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardheading button{
+    margin-top: 20px;
+}
+.white-button a{
+    text-decoration: none;
+    
+}
+
+.manycard{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+.onecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 30%;
+    height: 25%;
+   
+
+}
+
+.cards-section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url("/img/bgimg.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
+}
+
+.addstop{
+  margin-inline:auto ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+
+    margin-top: 30px;
+
+}
+
+.addstop h1{
+    color:#183B56;
+}
+
+.addstop button{
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+
+.addcard{
+    width: 25%;
+    height: 300px;
+   padding: 20px;
+   
+     background-size: cover;
+     border: 1px solid black;
+     cursor: pointer;
+     margin-top: 50px;
+     transition: 0.5s ease-out;
+     
+
+
+
+}
+
+.addcard:hover{
+    scale: 1.1;
+
+}
+
+
+
+
+.addcard p{
+margin-top: 90%;
+
+}
+
+.flex{
+    flex-direction: column;
+}
+
+.addcardflex{
+    display: flex;
+    gap: 20px;
+}
+
+.para{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto ;
+}
+
+     .para h1{ font-size: 30px;
+        color: #183B56;
+     }
+
+
+.para button{
+    padding: 10px;
+    
+}
+
+.para button a{
+    text-decoration: none;
+    border: none;
+}
+
+
+.footercontainer{
+    display: flex;
+    justify-content: center;
+  gap: 100px;
+
+}
+
+.img-footer{
+   width: auto;
+   height: 50px;
+ 
+    object-fit: cover;
+}
+
+.coloum{
+    display: flex;
+    flex-direction:column;
+  
+}
+
+.coloum a{
+    text-decoration: none;
+    color: #5C7588;
+}
+
+.footer{
+    background-color:#EBF2FA;
+    margin-top: 30px;
+}
+
+.coloum a:hover{
+    color: #2294ED;
+}
+
+
+.menu{
+      font-size: .3rem;
+      padding: 2px;
+    display: none;
+      background-color: transparent;
+      border: none;
+}
+
+
+
+@media(max-width: 600px){
+
+ *{
+    max-width: 600px;
+ }   
+.container{
+    max-width: 100%;
+    justify-content: center;
+
+}
+.company img{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.nav{
+    max-width: 600px;
+position: relative;
+}
+
+.links-nav{
+gap: 20px;
+position: absolute;
+top: 200%;
+width: 100%;
+background-color: white;
+}
+
+.white-button{
+    /* width: 120px; */
+    white-space: nowrap;
+    padding: 10px ;
+}
+
+.blue-button{
+    /* width: 120px; */
+    white-space: nowrap;
+    margin-left: -2px;
+}
+
+.herosection{
+    flex-direction: column;
+}
+.content{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.content h1{
+    line-height: 50px;
+
+}
+.hero-img img{
+    width: 300px;
+    margin-top: 50px;
+    /* margin-inline: auto; */
+
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company img{
+    width: 100px;
+    align-content: center;
+
+}
+h3 {
+    text-align: center;
+}
+.onecard{
+    width: 400px;
+}
+
+.herosection{
+    display: block;
+}
+
+.flex{
+    flex-direction: column;
+}
+
+.addstop{
+ /* display: block; */
+ width: 100%;
+ text-align: center;
+}
+    
+.addstop h1{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.addcardflex{
+    display: block;
+
+}
+.addcard{
+    width: 400px;
+   height: 400px;
+    
+}
+.footercontainer{
+    flex-direction: column;
+}
+.menu{
+   display: block;
+}
+.links-nav{
+    display: none;
+}
+.manycard{
+    justify-content: center;
+}
+.onecard p{
+    text-align: center;
+}
+
+.onecard{
+    margin-top: 20px;
+}
+.reviews{
+    text-align: center;
+}
+
+}
+
+
+
+
+
