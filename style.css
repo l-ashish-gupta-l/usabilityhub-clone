@@ -439,10 +439,13 @@ a {
         justify-content: center;
 
     }
-
+    .company{
+        display: block;
+        text-align: center;
+    }
     .company img {
-        /* margin: 10px; */
-        width: 13%;
+        margin: 30px;
+        width: 30%;
         margin-top: 1%;
     }
 
